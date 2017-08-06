@@ -1,0 +1,21 @@
+{
+  "intents" : [
+    {
+      "intent" : "GetSubscriberCount"
+    },
+    {
+      "intent" : "GetVideoViewCount"
+    },
+    {
+      "intent" : "GetVideoViewCountSinceDate",
+      "Slots" : [
+      	{
+      		"name" : "SinceDate",
+      		"type" : "AMAZON.DATE"
+      
+    	}
+      ]
+    }
+  ]
+  
+}
